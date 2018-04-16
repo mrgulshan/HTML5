@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML form elements</title>
+    <style>
+    	div{
+    		background-color: seagreen;
+    		padding: 10px;
+    		margin: 5px;
+    		width: 400px;
+    		color: white;
+    	}
+
+    </style>
+</head>
+<body>
+
+
+    <!-- input and label -->
+    <div>
+    <form>
+    	<label for="username">Username</label>
+    	<input type="text"id="username">
+    	<br>
+    	<label for ="password">password</label>
+    	<input type="password" id="password">
+    	<br>
+    	<input type="submit" value="submit">
+    	</div>
+
+    	<!-- with a table tag-->
+    	<div>
+    		<form>
+    			<table>
+    				<td>
+    					<label>username</label>
+    					<br>
+    					<input type="text" id="username">
+    				</td>
+    			</table>
+    		</form>
+
+    	</div>
+
+
+    <!-- Select and Option -->
+    <div>
+    	<label>select a language</label>
+    	<select>
+    		<option>html</option>
+    		<option>java</option>
+    		<option>ajax</option>
+    		<option>jquery</option>
+    		<option>bootstrap</option>
+    		<option>angular</option>
+    	</select>
+    </div>
+
+    <!-- Textarea -->
+    <div>
+    	<label>add ur comments</label>
+    	<textarea rows="5" cols="25"></textarea>
+    </div>
+
+    <!-- button -->
+   
+
+
+    <!-- datalist -->
+    <div>
+    	<label>select a technology</label>
+    	<input list="technologies" name="tech">
+    	<datalist id="technologies">
+    		<option value="HTMl">
+    			<option value="css">
+    				<option value="c">
+    					<option value="php">
+    						<option value="angular js">
+    </div>
+
+</body>
+</html>
